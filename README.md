@@ -1,0 +1,5 @@
+# vuex-reducer
+
+## License
+
+MIT
