@@ -2,8 +2,14 @@
   "name": "vuex-reducer",
   "version": "0.0.0",
   "author": "katashin",
-  "description": "",
-  "keywords": [],
+  "description": "Reducer in Vuex",
+  "keywords": [
+    "Vue",
+    "Vuex",
+    "reducer",
+    "immutable",
+    "Redux"
+  ],
   "license": "MIT",
   "main": "dist/vuex-reducer.cjs.js",
   "module": "lib/index.js",
