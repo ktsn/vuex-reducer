@@ -5,6 +5,10 @@ const config = {
   entry: 'lib/index.js',
   moduleName: 'VuexReducer',
   plugins: [],
+  external: ['vue'],
+  globals: {
+    vue: 'Vue'
+  },
   banner: `/*!
  * ${meta.name} v${meta.version}
  * ${meta.homepage}
