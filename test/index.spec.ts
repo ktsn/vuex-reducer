@@ -76,11 +76,12 @@ describe('Vuex Reducer', () => {
       })
     })
 
+    store.watch(state => state.bar, spy as any)
+
     store.commit('inc')
     assert(store.state.foo === 2)
     assert(store.state.bar === expected)
 
-    store.watch(state => state.bar, spy as any)
     Vue.nextTick(() => {
       td.verify(spy(), { ignoreExtraArgs: true, times: 0 })
       done()
